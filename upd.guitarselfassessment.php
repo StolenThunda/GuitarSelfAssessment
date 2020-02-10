@@ -2,7 +2,7 @@
     exit('No direct script access allowed');
 }
 
-class GuitarSelfAssesment_upd
+class Guitarselfassesment_upd
 {
     public $version = EXT_VERSION;
 
@@ -42,7 +42,7 @@ class GuitarSelfAssesment_upd
         if ($previousInstall->num_rows() == 0) {
             ee()->db->insert('modules', $mod_data);
         }
-        return $this->createCache();
+        return true;  //this->createCache();;
     }
     
 

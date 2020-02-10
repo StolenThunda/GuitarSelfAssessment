@@ -2,7 +2,7 @@
     exit('No direct script access allowed');
 }
 
-class GuitarSelfAssessment_mod
+class Guitarselfassessment_mod
 {
 }
 // END CLASS

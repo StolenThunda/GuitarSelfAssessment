@@ -1,10 +1,10 @@
 <?php
-namespace GuitarSelfAssessment;
+namespace Guitarselfassessment;
 if (!defined('BASEPATH')) {
     exit('No direct script access allowed');
 }
 /**
- * GuitarSelfAssessment
+ * Guitarselfassessment
  *
  * @category Bootstrap_For_MMP
  * @package  Category
@@ -15,10 +15,10 @@ if (!defined('BASEPATH')) {
 
 
 /**
- * GuitarSelfAssessment_mcp class
+ * Guitarselfassessment_mcp class
  *
  */
-class GuitarSelfAssessment_mcp
+class Guitarselfassessment_mcp
 {
     private $_vars = array();
     /**
